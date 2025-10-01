@@ -15,10 +15,10 @@
 
 ### 2. Conectar projeto local ao GitHub
 ```bash
-# Adicionar remote origin (substitua SEU_USUARIO pelo seu username)
-git remote add origin https://github.com/SEU_USUARIO/devlink.git
+# Remote já configurado para:
+git remote add origin https://github.com/AdrianResende/DevLink.git
 
-# Push para o GitHub
+# Push realizado com sucesso!
 git push -u origin master
 ```
 
