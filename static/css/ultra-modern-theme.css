@@ -13,26 +13,26 @@
 
 /* Variáveis CSS modernas */
 :root {
-    --primary: #FFFFFF;
-    --secondary: #F8F9FA;
-    --accent: #000000;
-    --accent-secondary: #E5E7EB;
-    --text: #000000;
-    --text-secondary: #374151;
-    --border: #E5E7EB;
-    --hover: #F3F4F6;
+    --primary: #0A0A0A;
+    --secondary: #1A1A1A;
+    --accent: #FFFFFF;
+    --accent-secondary: #F5F5F5;
+    --text: #FFFFFF;
+    --text-secondary: #A0A0A0;
+    --border: #2A2A2A;
+    --hover: #2D2D2D;
     --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
     --gradient-subtle: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 50%, rgba(236, 72, 153, 0.1) 100%);
-    --gradient-card: linear-gradient(145deg, #F8F9FA 0%, #E5E7EB 100%);
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.05);
+    --gradient-card: linear-gradient(145deg, #1A1A1A 0%, #252525 100%);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
     --shadow-colored: 0 10px 30px -5px rgba(99, 102, 241, 0.2);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
     --border-radius: 16px;
     --border-radius-sm: 8px;
-    --glass-bg: rgba(248, 249, 250, 0.8);
-    --glass-border: rgba(0, 0, 0, 0.1);
+    --glass-bg: rgba(26, 26, 26, 0.8);
+    --glass-border: rgba(255, 255, 255, 0.1);
 }
 
 /* Animações suaves */
@@ -249,8 +249,8 @@ body {
 }
 
 .link-area:hover .link-text {
-    color: #000000;
-    text-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(99, 102, 241, 0.5);
     font-weight: 600;
 }
 
@@ -424,7 +424,7 @@ footer {
     margin-bottom: 16px;
     outline: none;
     padding: 0 16px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(10, 10, 10, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     color: var(--text);
@@ -436,7 +436,7 @@ footer {
 .form-input:focus {
     border: 1px solid rgba(99, 102, 241, 0.5);
     box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1), 0 0 20px rgba(99, 102, 241, 0.1);
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(10, 10, 10, 0.8);
 }
 
 .form-input:hover {
@@ -782,12 +782,12 @@ html {
 /* Seleção de texto moderna */
 ::selection {
     background: rgba(99, 102, 241, 0.3);
-    color: black;
+    color: white;
 }
 
 ::-moz-selection {
     background: rgba(99, 102, 241, 0.3);
-    color: black;
+    color: white;
 }
 
 /* Barra de progresso moderna */
